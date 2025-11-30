@@ -91,8 +91,7 @@ Using a comparable setup—while ensuring a **stratified** 70/30 split—my stro
 | ----- | --------- | ------ | -------- | ---- | -------- |
 | SVM   | 0.84      | 0.85   | 0.85     | 0.90 | 0.8437   |
 
-In addition to this comparison, the project also goes beyond the paper’s methodology by applying **10-fold stratified cross-validation**, which provides a more reliable and generalizable estimate of model performance. This reduces variance, prevents overreliance on a single split, and gives a stronger measure of how the model is expected to perform on unseen data.
-
+In addition to this comparison, the project also goes beyond the paper’s methodology by applying **10-fold stratified cross-validation**, which provides a more reliable and generalizable estimate of model performance. This reduces variance, prevents overreliance on a single split, and gives a stronger measure of how the model is expected to perform on unseen data. **Overall, the focus of this project is to evaluate the dataset using a more statistically robust and reproducible methodology than the original study.**
 
 # **How to Use This Repository**
 
