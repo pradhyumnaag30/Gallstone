@@ -70,6 +70,10 @@ This project implements and evaluates a range of machine-learning models on the 
 
 # **Dataset Citation**
 
+> [Gallstone - UCI Machine Learning Repository](https://archive.ics.uci.edu/dataset/1150/gallstone-1)
+
+# **Introductory Paper**
+
 > Esen I. et al., “Early prediction of gallstone disease with a machine learning-based method from bioimpedance and laboratory data” 2025.
 > [https://pubmed.ncbi.nlm.nih.gov/38394521/](https://pubmed.ncbi.nlm.nih.gov/38394521/)
 
