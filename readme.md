@@ -77,6 +77,10 @@ This project implements and evaluates a range of machine-learning models on the 
 > Esen I. et al., “Early prediction of gallstone disease with a machine learning-based method from bioimpedance and laboratory data” 2025.
 > [https://pubmed.ncbi.nlm.nih.gov/38394521/](https://pubmed.ncbi.nlm.nih.gov/38394521/)
 
+# **Dataset Overview**
+
+The **Gallstone Clinical Dataset** contains data from **319 patients** from the Internal Medicine Outpatient Clinic of Ankara VM Medical Park Hospital. Each patient is described by **38 clinical and bioimpedance features**, with a **binary label** indicating whether the patient was diagnosed with gallstone disease (`0`) or not (`1`).
+
 # **Improvements over Reported Approach**
 
 The original study evaluated models using a **single 70/30 train–test split** and reported the following results for their best-performing model, the Random Forest Classifier:
