@@ -84,7 +84,21 @@ This project implements and evaluates a range of machine-learning models on the 
 > Esen I. et al., “Early prediction of gallstone disease with a machine learning-based method from bioimpedance and laboratory data” 2025.
 > [https://pubmed.ncbi.nlm.nih.gov/38394521/](https://pubmed.ncbi.nlm.nih.gov/38394521/)
 # **Improvements over Reported Approach**
-Unlike the research paper, which evaluates models using a single 70/30 train–test split, this project applies 10-fold stratified cross-validation, providing a far more stable and generalizable estimate of model performance.
+
+The original study evaluated models using a single 70/30 train–test split and reported the following results for their best-performing model, the Random Forest Classifier:
+
+| Model         | Precision | Recall  | F-Measure | AUC      | Accuracy |
+|---------------|-----------|--------:|----------:|---------:|---------:|
+| Random Forest | 0.91      | 0.81    | 0.86      | 0.85     | 0.8542   |
+
+Using a comparable setup—while ensuring a stratified 70/30 split—my strongest model, a Linear SVM, achieved similar performance:
+
+| Model         | Precision | Recall  | F-Measure | AUC      | Accuracy |
+|---------------|-----------|--------:|----------:|---------:|---------:|
+| SVM           | 0.84      | 0.85    | 0.85      | 0.90     | 0.8437   |
+
+In addition to this comparison, the project also goes beyond the paper’s methodology by applying 10-fold stratified cross-validation, which provides a more reliable and generalizable estimate of model performance. This reduces variance, prevents overreliance on a single split, and gives a stronger measure of how the model is expected to perform on unseen data.
+
 # **How to Use This Repository**
 
 ### **1. Install dependencies**
