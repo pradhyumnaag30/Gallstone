@@ -3,19 +3,6 @@ This project implements and evaluates a range of machine-learning models on the 
 # ⭐ **Results Summary**
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -79,6 +66,7 @@ This project implements and evaluates a range of machine-learning models on the 
   </tbody>
 </table>
 </div>
+
 # **Dataset Citation**
 
 > Esen I. et al., “Early prediction of gallstone disease with a machine learning-based method from bioimpedance and laboratory data” 2025.
